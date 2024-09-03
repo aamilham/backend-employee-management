@@ -25,8 +25,11 @@ Route::middleware('auth:api')->group(function () {
     Route::post('employees', [EmployeeController::class, 'store']);
     Route::put('employees/{id}', [EmployeeController::class, 'update']);
     Route::delete('employees/{id}', [EmployeeController::class, 'delete']);
-    Route::get('employees-by-salary', [EmployeeController::class, 'listBySalary'])->middleware('superadmin');
 
     Route::post('logout', [AuthController::class, 'logout']);
     Route::get('me', [AuthController::class, 'me']);
+});
+
+Route::middleware(['auth:api', 'superadmin'])->group(function () {
+    Route::get('employees-by-salary', [EmployeeController::class, 'listBySalary']);
 });
