@@ -1,7 +1,17 @@
 
-# Employee Management Backend Installation Guide
+# Employee Management System - Backend
 
-Step by step backend installation for employee management website, Made by : [aamilham](https://github.com/aamilham)
+Employee Management System backend built using Laravel. This backend provides RESTful API to manage employee data, supports CRUD (Create, Read, Update, Delete) operations, along with authentication and authorization features using JWT.
+
+## Authors
+
+- [@aamilham](https://github.com/aamilham)
+
+## Features
+- **User Authentication and Registration**: Users can register and log in to gain access to the API.
+- **Employee Management**: Supports creating, reading, updating, and deleting employee data.
+- **JWT-Based Authentication**: Uses JSON Web Token to secure protected endpoints.
+- **Role-Based Access Control**: Includes a superadmin role for special access to certain endpoints.
 
 ## Prerequisites
 
