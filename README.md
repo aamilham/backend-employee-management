@@ -1,7 +1,7 @@
 
 # Employee Management System - Backend
 
-Employee Management System backend built using Laravel. This backend provides RESTful API to manage employee data, supports CRUD (Create, Read, Update, Delete) operations, along with authentication and authorization features using JWT.
+Employee Management System backend built using Laravel. This backend provides RESTful API to manage employee data, supports CRUD (Create, Read, Update, Delete) operations, along with authentication and authorization features using JWT. [Frontend Repository](https://github.com/aamilham/frontend-employee-management)
 
 ## Authors
 
